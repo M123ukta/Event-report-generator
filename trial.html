@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event Report</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="form-container">
+    <h2>Event Report</h2>
+
+    <form id="loginForm" action="connect.php" method="post">
+        <div class="input-group">
+            <label>Student Name</label>
+            <input type="text" required placeholder="Enter your full name" name="name">
+        </div>
+
+        <div class="input-group">
+            <label>Email</label>
+            <input type="email" required placeholder="Enter your email" name="email">
+        </div>
+
+        <div class="input-group">
+            <label>Event Name</label>
+            <input type="text" required placeholder="Enter event name" name="ename">
+        </div>
+
+        <div class="input-group">
+            <label>Event Date</label>
+            <input type="date" required placeholder="Enter event date" name="edate">
+        </div>
+
+        <div class="input-group">
+            <label>Event Title</label>
+            <input type="text" required placeholder="Enter event title" name="title">
+        </div>
+
+        <div class="input-group">
+            <label>Chief Guest Name</label>
+            <input type="text" required placeholder="Enter name of chief guest" name="cgname">
+        </div>
+
+        <div class="input-group">
+            <label>Chief Guest LinkedIn</label>
+            <input type="text" required placeholder="Enter linkedIn link" name="linkedIn">
+        </div>
+
+        <div class="input-group">
+            <label>Faculty Name</label>
+            <input type="text" required placeholder="Enter your faculty name" name="faculty">
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <p id="successMessage">✅ Submitted Successfully!</p>
+</div>
+
+
+
+</body>
+</html>
